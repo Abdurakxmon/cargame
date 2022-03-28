@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car race</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+        }
+    </style>
+</head>
+<body style="display: flex; position: relative; justify-content: center; overflow: hidden; background-color: rgb(5, 158, 5);">
+    <img id="road-1" style="width: 30%; height: 100vh; position: absolute;" src="images/road.jpg" alt="">
+    <img id="road-2" style="width: 30%; height: 100vh; position: absolute;" src="images/road.jpg" alt="">
+    <img id="car" src="" alt="">
+    <img src="" id="car-1" alt="">
+
+    <button style="background-color: red; border: none; position: absolute; top: 500px; padding: 10px; border-radius: 50px; width: 100px;height: 100px;" id="btntnnnn" onclick="retry()">Retry</button>
+    <h1 id="score" style="color: white; z-index: -1; position: absolute; left: 80%;">0</h1>
+    
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 0;" onclick="car_ch(1)">
+        <img src="cars/car_1.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 0; top: 115px;"onclick="car_ch(2)">
+        <img src="cars/car_2.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 0; top: 230px;"onclick="car_ch(3)">
+        <img src="cars/car_3.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 0;top: 345px;"onclick="car_ch(4)">
+        <img src="cars/car_4.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 0;top: 460px;"onclick="car_ch(5)">
+        <img src="cars/car_5.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 60px;"onclick="car_ch(6)">
+        <img src="cars/car_6.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 60px;top: 115px;"onclick="car_ch(7)">
+        <img src="cars/car_7.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 60px;top: 230px;"onclick="car_ch(8)">
+        <img src="cars/car_8.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 60px;top: 345px;"onclick="car_ch(9)">
+        <img src="cars/car_9.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 60px;top: 460px;"onclick="car_ch(10)">
+        <img src="cars/car_10.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 120px;"onclick="car_ch(11)">
+        <img src="cars/car_11.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 120px;top: 115px;"onclick="car_ch(12)">
+        <img src="cars/car_12.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 120px;top: 230px;"onclick="car_ch(13)">
+        <img src="cars/car_13.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 120px;top: 345px;"onclick="car_ch(14)">
+        <img src="cars/car_14.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 120px;top: 460px;"onclick="car_ch(15)">
+        <img src="cars/car_15.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <button style="position: absolute; width: 60px; height: 115px;padding: 5px; left: 180px;"onclick="car_ch(16)">
+        <img src="cars/car_16.png" alt="" style=" width: 50px; height: 100px;"> 
+    </button>
+    <script src="script.js"></script>
+</body>
+
+</html>
